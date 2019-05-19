@@ -1,0 +1,7 @@
+
+// Since I am using react code, this order is required as webpack
+// uses presets in right to left order
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": ["@babel/plugin-proposal-class-properties"]
+}
